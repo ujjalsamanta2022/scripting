@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "=======check disk space========="
+echo
+df -khT >> /tmp/disk_size.txt
+echo
+
